@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+    background-color: #3a73ed;
+    color: white;
+}
+
+ul {
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    margin-right: 1rem;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+h3,
+p {
+    margin-top: 2rem;
+}
+
+.btn {
+    background-color: #3a73ed;
+    border: none;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: white;
+}

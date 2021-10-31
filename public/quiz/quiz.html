@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle 🔼 Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Is Triangle</h1>
+            <ul>
+                <li>Is Triangle</li>
+                <li>Quiz</li>
+                <li>Hypotenuse</li>
+                <li>Area of triangle</li>
+            </ul>
+        </header>
+        <div class="quiz-container">
+            <h1>Quiz on triangles</h1>
+            <h3>For each correct answer you will get +1 point</h3>
+            <form class="quiz-form" onsubmit="event.preventDefault();">
+                <div class="quiz-container">
+                    <p>What is the third angle for triangle where
+                        angle1 = 45&deg; and angle2 = 60&deg; ?</p>
+                    </p>
+                    <label><input type="radio" name="question1" value="45" />45&deg;</label>
+                    <label><input type="radio" name="question1" value="75" />75&deg;</label>
+                    <label><input type="radio" name="question1" value="85" />85&deg;</label>
+                </div>
+                <div class="quiz-container">
+                    <p>A triangle with all sides equal is called?</p>
+                    <label><input type="radio" name="question2" value="Equilateral" />Equilateral</label>
+                    <label><input type="radio" name="question2" value="Isosceles" />Isosceles</label>
+                    <label><input type="radio" name="question2" value="Scalene" />Scalene</label>
+                </div>
+                <div class="quiz-container">
+                    <button class="btn">Submit</button>
+                    <h2 id="answer"></h2>
+                </div>
+            </form>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
