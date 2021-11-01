@@ -27,6 +27,7 @@ li {
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
+    line-height: 1.5;
 }
 
 h3,
@@ -40,5 +41,11 @@ p {
     margin: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 5px;
+    color: white;
+}
+
+a,
+a:active {
+    text-decoration: none;
     color: white;
 }

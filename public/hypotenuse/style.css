@@ -52,3 +52,9 @@ input:active {
     border-radius: 5px;
     color: white;
 }
+
+a,
+a:active {
+    text-decoration: none;
+    color: white;
+}

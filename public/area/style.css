@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+    background-color: #3a73ed;
+    color: white;
+}
+
+ul {
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+}
+
+li {
+    margin-right: 1rem;
+}
+
+a,
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+}
+
+input,
+input:active {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: 2px solid #3a73ed;
+}
+
+.btn {
+    background-color: #3a73ed;
+    border: none;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
