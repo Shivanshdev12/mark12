@@ -33,10 +33,12 @@ h3 {
     padding: 2rem;
 }
 
-input {
+input,
+input:active {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
     border-radius: 10px;
-    border: 1px solid;
-    padding-bottom: 1rem;
+    border: 2px solid #3a73ed;
 }
 
 .btn {
